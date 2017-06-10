@@ -72,7 +72,7 @@ Description :
 
     A new way of writing PHP web app. It uses php class operator overload and inheritance to provide a complete new way of writing PHP web app. Example : 
     
-    ```
+    ```php
     $app = new MainController("bootstrap");
     
     // Short and easily rememberable syntax
@@ -94,7 +94,6 @@ Description :
     // Oops we forgot to include some CSS/JS ... nevermind
     $app.provide("angular.js", "dist"); // the app will automatically include JS from the best CDN
     $app.provide("style.css", "local"); // or include your files from the 'ressources/' directory
-    
     ```
 
 ## [genetic algorithm](https://github.com/snwfdhmp/genetic-algorithm)
