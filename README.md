@@ -30,7 +30,17 @@ Feel free to do what you want, this is the TEST server.
 
 CLI for dev project managing. Duck provides its own file architecture to organize your code in the best way possible. It includes automatic fast compilation and comitting, unit testing, versioning, junk code management, git repo management, ...
 I advice to read the README (click on **repo** link) which contains many informations about that project.
-    
+
+```
+duck init
+duck deploy
+duck qc "Fix #2019: Minor bugs"
+duck class create MyNewClass
+duck compile
+duck run
+duck test -all
+```
+   
 ## [yt](https://github.com/snwfdhmp/yt)
 
 ### Links :
@@ -39,8 +49,13 @@ I advice to read the README (click on **repo** link) which contains many informa
 
 ### Description :
 
-Command line tool for opening yt and do yt searches quickly from Terminal.
-    
+Command line tool for opening yt and do yt searches quickly from any shell.
+
+```
+yt search cats
+yt channel nqtv
+```
+
 ## [Top 1 GitHub (also called incCommit)](#)
 
 ### Links :
@@ -127,4 +142,35 @@ Quick tries of deep neural network (number, function, lessOrGreater, word, and s
 
 ### Description :
 
-While the UI is totally broken (we tried SDL but this is definetly something we don't work to work with), the back-end part with operator overload inheritance over abstract class polymorphism, may be interesting.
+While the UI is totally broken (I tried SDL but this is definetly something I don't want to work with), the back-end part with operator overload inheritance over abstract class polymorphism, may be interesting. I plan to export this class-system to build a cross-platform simple UI library for C++.
+
+```C++
+// (GC means Graphical Component)
+
+auto window = new GCWindow (); // creates a Window object
+
+// Let's create 2 different displays (views)
+auto menu = new GCDisplay();
+auto credits = new GCDisplay();
+
+// Let's create 3 graphical components ...
+auto button = new GC(); 
+auto title = new GC();
+auto content = new GC();
+
+// ... and add them into their corresponding view
+menu.addGC(button);
+credits.addGC(title);
+credits.addGC(content);
+
+// Let's show a display ...
+window.show(menu);
+
+// ... wait for 3 seconds
+window.wait(3000);
+
+// ... and change to another
+window.show(credits);
+```
+
+This small example does not explain stuff like onClick(), onMouseOver() and other methods overloading, this will come when I'll have the time to.
