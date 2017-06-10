@@ -22,55 +22,55 @@ Feel free to do what you want, this is the TEST server.
 
 ## [Duck](https://github.com/snwfdhmp/learnhub)
 
-Links :
+### Links :
 
 - [repo](https://github.com/snwfdhmp/duck)
 
-Description :
+### Description :
 
 CLI for dev project managing. Duck provides its own file architecture to organize your code in the best way possible. It includes automatic fast compilation and comitting, unit testing, versioning, junk code management, git repo management, ...
 I advice to read the README (click on **repo** link) which contains many informations about that project.
     
 ## [yt](https://github.com/snwfdhmp/yt)
 
-Links :
+### Links :
 
 - [repo](https://github.com/snwfdhmp/duck)
 
-Description :
+### Description :
 
 Command line tool for opening yt and do yt searches quickly from Terminal.
     
 ## [Top 1 GitHub (also called incCommit)](#)
 
-Links :
+### Links :
 
-NOT PUBLIC
+**NOT PUBLIC**
 
-Description :
+### Description :
 
 Fun algorithm which permitted me to reach *Top 1 active developper* on GitHub on any account (I removed effects from my official account because it implies many many commits)
  
 ## [Humanity Evolution Modelisation](https://github.com/snwfdhmp/human-evolution-modelisation)
 
-Links :
+### Links :
 
 - [repo](https://github.com/snwfdhmp/human-evolution-modelisation)
 
-Description :
+### Description :
 
 C++ optimized tool for modelisation of human evolution (genetic) from generation to generation (25 millions/s on average).
 The online project is limited to sex modelisation. For further informations, contact me at snwfdhmp@protonmail.com
 
 ## [PHP Web The New Way](https://github.com/snwfdhmp/php-framework)
 
-Links :
+### Links :
 
 - [repo](https://github.com/snwfdhmp/php-framework) *The repo does not contain all the source code yet because it will probably be sold soon.*
 
-Description :
+### Description :
 
-A new way of writing PHP web app. It uses php class operator overload and inheritance to provide a complete new way of writing PHP web app. Example : 
+A PHP Framework built to provide a complete new way of writing PHP web app. Example : 
     
 ```PHP
 
@@ -101,32 +101,30 @@ For further information, please contact me at snwfdhmp@protonmail.com
 
 ## [genetic algorithm](https://github.com/snwfdhmp/genetic-algorithm)
 
-Links :
+### Links :
 
 - [repo](https://github.com/snwfdhmp/genetic-algorithm)
 
-Description :
+### Description :
 
 Genetic algorithm for Object Conformism
     
 ## [Neural Networks](https://github.com/snwfdhmp/neural-networks)
 
-Links :
+### Links :
 
 - [repo](https://github.com/snwfdhmp/neural-networks)
 
-Description :
+### Description :
 
 Quick tries of deep neural network (number, function, lessOrGreater, word, and simple bit recognition)
     
 ## [Avalam AI Game](https://github.com/snwfdhmp/avalam-ai-game)
 
-Links :
+### Links :
 
 - [repo](https://github.com/snwfdhmp/avalam-ai-game)
 
-Description :
+### Description :
 
 While the UI is totally broken (we tried SDL but this is definetly something we don't work to work with), the back-end part with operator overload inheritance over abstract class polymorphism, may be interesting.
-    
-    
