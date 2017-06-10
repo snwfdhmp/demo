@@ -3,7 +3,7 @@ Quick list of projects
 
 # Front-End
 
-## [LearnHub](http://learnhub.esy.es/) (1 year project at Ecole Centrale de Lille)
+## [LearnHub](http://learnhub.esy.es/)
 
 Links :
 
